@@ -33,7 +33,10 @@ public class VentanaRegistroEvento extends JFrame implements ActionListener {
         bRegistrarEvento.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String nombre = tNombre.getToolTipText();
+                String nombre = tNombre.getText();
+                int mes = Integer.parseInt(tMes.getText());
+                int dia = Integer.parseInt(tDia.getText());
+
 
             }
         });
