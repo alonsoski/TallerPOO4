@@ -1,0 +1,6 @@
+Nombre del evento:lola
+Fecha del evento:Thu Jan 24 00:00:00 CLST 3901
+Lugar del evento:temukito
+Numero de asistentes:0
+Artistas invitados:
+asdasdas
