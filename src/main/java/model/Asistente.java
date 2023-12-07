@@ -15,6 +15,11 @@ public class Asistente {
         return this.nombre;
     }
 
+    public Asistente(String nombre, int numero) {
+        this.nombre = nombre;
+        this.numero = numero;
+    }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }

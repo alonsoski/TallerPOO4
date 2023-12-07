@@ -33,7 +33,7 @@ public class GestorEvento {
     }
 
     public Boolean eventoExitste(EventoMusical evento){
-        File archivo = new File("./"+evento.getNombre());
+        File archivo = new File("./agenda/"+evento.getNombre()+".txt");
         if(archivo.exists()){
             return true;
         }else {
